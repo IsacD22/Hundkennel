@@ -337,6 +337,7 @@ class Program
                                             {
                                                 try
                                                 {
+                                                    //frågar hur snabb den tredjehunden är
                                                     Console.WriteLine("How fast is your dog? (1 - 10)");
                                                     dogSpeed3 = Convert.ToDouble(Console.ReadLine());
                                                     if (dogSpeed3 < 1 || dogSpeed3 > 10)
